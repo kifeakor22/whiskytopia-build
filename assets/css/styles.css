@@ -72,6 +72,9 @@ body {
 hr {
     border-color: var(--siteColor) !important;
 }
+.cta {
+    text-align: center;
+}
 
 
 @media screen and (min-width: 1024px) {
