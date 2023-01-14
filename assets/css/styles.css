@@ -42,9 +42,9 @@ body {
     padding: 2px;
     font-size: x-large !important;
     border: solid 1px var(--siteColor);
-    padding: 1px;
+    padding: 5px;
     margin: 10px;
-    border-radius: 15%;
+    border-radius: %;
 }
 
 .top {
@@ -62,9 +62,7 @@ hr {
     border-color: var(--siteColor) !important;
 }
 
-.bt-cta {
-    ;
-}
+
 
 
 
@@ -85,3 +83,10 @@ hr {
     }    
 }
 
+
+@media screen and (max-width: 499px) {
+     .compname {
+        display: none;
+    }
+
+}
