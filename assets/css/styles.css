@@ -41,7 +41,7 @@ body {
 .navbar li {
     padding: 2px;
     font-size: x-large !important;
-    border: solid 1px var(--siteColor);
+   /* border: solid 1px var(--siteColor);*/
     padding: 5px;
     margin: 10px;
     border-radius: %;
