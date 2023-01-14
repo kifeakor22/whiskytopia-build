@@ -1,5 +1,5 @@
 :root{
-    --siteColor: gold;
+    --siteColor: #F5A623;
 }
 
 *,
@@ -19,6 +19,9 @@ body,
 body {
     font-family: sans-serif;
     background-color: black;
+    height: 100%;
+     margin: 0;
+    padding: 0;
 }
 
 .navbar-toggler-icon {
@@ -36,6 +39,7 @@ body {
 
 .navbar-brand {
     font-size: x-large;
+
 }
 
 .navbar li {
@@ -44,7 +48,7 @@ body {
    /* border: solid 1px var(--siteColor);*/
     padding: 5px;
     margin: 10px;
-    border-radius: %;
+    
 }
 
 .top {
@@ -55,6 +59,11 @@ body {
     text-align: center;
     background-color: black !important;
     color: white;
+    background-image:url(../images/herogrid.jpg);
+    height:100%;
+    background-size: cover;
+    background-position: center;background-repeat: no-repeat;
+    align-items: center center;    
     
 }
 
