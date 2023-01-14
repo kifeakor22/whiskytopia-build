@@ -20,8 +20,6 @@ body {
     font-family: sans-serif;
     background-color: black;
     height: 100%;
-     margin: 0;
-    padding: 0;
 }
 
 .navbar-toggler-icon {
@@ -58,21 +56,22 @@ body {
 .jumbotron {
     text-align: center;
     background-color: black !important;
-    color: white;
-    background-image:url(../images/herogrid.jpg);
-    height:100%;
+    color: white;  
+    background-image: url(../images/herogrid.jpg);
     background-size: cover;
-    background-position: center;background-repeat: no-repeat;
-    align-items: center center;    
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center center;
+    height: 100%;
+    width: 100%;
     
 }
+
+
 
 hr {
     border-color: var(--siteColor) !important;
 }
-
-
-
 
 
 @media screen and (min-width: 1024px) {
@@ -96,6 +95,10 @@ hr {
 @media screen and (max-width: 499px) {
      .compname {
         display: none;
+    }
+    .logo img {
+        height: 50px;
+        width: auto;
     }
 
 }
