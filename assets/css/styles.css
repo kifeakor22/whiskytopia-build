@@ -50,6 +50,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    box-shadow: inset 0 0em 1em var(--siteColor);
 }
 
 .text-center {
