@@ -41,19 +41,15 @@ body {
     
 }
 
-.top {
-    margin-top: 60px;
-}
-
 .jumbotron {
     text-align: center;
-    background-color: black !important;
+    background-color:black;
     color: white;  
     background-image: url(../images/herogrid.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    align-items: center center;
+    align-items: center;
 }
 
 .text-center {
@@ -75,15 +71,13 @@ hr {
         left: 40%;
         top: 0%;
         margin-top: 0px;
-        }
+    }
+
     .logo img {
         height: 100px;
         width: auto;
-        }
-    .hero {
-        position: relative;
-        top: 90px;
-    }    
+    }
+
 }
 
 
@@ -94,6 +88,10 @@ hr {
     .logo img {
         height: 50px;
         width: auto;
+    }
+
+    .navbar li {
+        border-bottom: 1px solid var(--siteColor);
     }
 
 }
