@@ -8,7 +8,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.modal-content {
+    background: black;
+}
 body {
     font-family: sans-serif;
     background-color: black;
