@@ -20,7 +20,12 @@ body {
 
 .navbar a {
     color: var(--siteColor) !important;
-    
+        
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px var(--siteColor);
 }
 
 .navbar {
@@ -93,6 +98,10 @@ hr {
 
     .navbar li {
         border-bottom: 1px solid var(--siteColor);
+    }
+
+    h1 {
+        font-size: xx-large !important;
     }
 
 }
