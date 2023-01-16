@@ -76,7 +76,7 @@ hr {
 @media screen and (min-width: 1024px) {
     .logo {
         position: relative;
-        left: 40%;
+        margin: auto;
         top: 0%;
         margin-top: 0px;
     }
