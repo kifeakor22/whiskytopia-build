@@ -10,7 +10,7 @@ body {
 }
 .modal-content {
     background: black;
-    color: var(--siteColorgit);
+    color: var(--siteColor) !important;
 }
 
 .modal-title {
