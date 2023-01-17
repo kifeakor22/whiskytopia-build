@@ -76,9 +76,30 @@ body {
     width: auto;
 }
 
-.text-center {
+.text-center, .cardContainer, h2 {
     color: var(--siteColor)
 }
+
+.cardContainer,h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.card-title {
+    font-weight: bolder;
+    text-decoration: underline ;
+}
+
+.order {
+    background-color: var(--siteColor);
+    border-radius: 25px;
+}
+
+ .order:hover {
+     transform: scale(1.2);
+     box-shadow: 0 0 10px var(--siteColor);
+ }
 
 
 hr {
