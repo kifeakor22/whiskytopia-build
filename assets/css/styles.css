@@ -10,7 +10,13 @@ body {
 }
 .modal-content {
     background: black;
-    color: white;
+    color: var(--siteColorgit);
+}
+
+.modal-title {
+    text-decoration: underline;
+    font-weight: bolder;
+    color:  var(--siteColor);
 }
 body {
     font-family: sans-serif;
