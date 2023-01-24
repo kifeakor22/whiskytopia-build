@@ -116,6 +116,30 @@ hr {
     text-align: center;
 }
 
+.cardContainer-fluid {
+    padding: 5px;
+    margin-bottom: 40px;
+    
+}
+
+
+.card {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    height: 200px;
+    /* set the fixed height */
+    object-fit: cover;
+    /* scale the image to cover the entire container */
+}
+
+
 
 @media screen and (min-width: 1024px) {
     .logo {
