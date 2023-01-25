@@ -21,6 +21,10 @@ article {
     font-size: large;
 }
 
+.blue-text {
+    color: blue;
+}
+
 .video {
     text-align: center;
     padding: 10px;
