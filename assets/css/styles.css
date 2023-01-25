@@ -15,9 +15,14 @@ body {
    
 }
 
+article {
+    padding: 20px;
+    margin: 10px;
+    font-size: large;
+}
+
 .video {
     text-align: center;
-  
     padding: 10px;
     margin: 20px;
 }
