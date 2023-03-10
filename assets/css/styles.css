@@ -57,7 +57,12 @@ body {
 
 #goldenBtn {
     position: relative;
-    left: 50%;
+    left: 45%;
+}
+
+#goldenBtn:hover {
+    transform: scale(1.2);
+
 }
 
 
